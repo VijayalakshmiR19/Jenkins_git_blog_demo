@@ -1,0 +1,20 @@
+#!/bin/bash
+# =====================================================
+# File: current_date_month.sh
+# Purpose: Print current date, month, and year
+# =====================================================
+
+# Full date
+echo "Today's full date is: $(date)"
+
+# Current day
+echo "Day: $(date +%d)"
+
+# Current month (number)
+echo "Month (number): $(date +%m)"
+
+# Current month (name)
+echo "Month (name): $(date +%B)"
+
+# Current year
+echo "Year: $(date +%Y)"
