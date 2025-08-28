@@ -1,8 +1,5 @@
 #!/bin/bash
-# =====================================================
-# File: current_date_month.sh
-# Purpose: Print current date, month, and year
-# =====================================================
+# Simple unix commands
 
 # Full date
 echo "Today's full date is: $(date)"
